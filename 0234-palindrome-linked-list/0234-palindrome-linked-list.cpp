@@ -11,6 +11,7 @@
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
+        //first method is to directly create a vector and then check it as usual but it is taking extra memory .Second way is using fast slow pointer technsique in it we reverse first half using while loop and moving fast pointer till it get null then just compare 2 halfs
         vector<int>v;
         ListNode*temp=head;
         while(temp!=NULL){
