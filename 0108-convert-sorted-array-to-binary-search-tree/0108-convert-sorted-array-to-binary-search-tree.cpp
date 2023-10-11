@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    //from sorted list or array to make binary tree always use binary search approach as mid elemnt as root and all its left will be smaller can be choosen as mid left same for right ones...thus tree would get formed
+    //from sorted list or array to make balanced binary tree always use binary search approach as mid elemnt as root and all its left will be smaller can be choosen as mid left same for right ones and thus height remains same on both sides...thus tree would get formed
     TreeNode* func(vector<int>& nums,int start,int end){
         if(start>end)
         {return NULL;
